@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 LABEL owner="rahamadulla786.md@gmail.com"
 LABEL version="1.0"
 ARG VERSION='1.3.9'
