@@ -5,5 +5,5 @@ LABEL team="javateam@ibm.com"
 ARG VERSION='1.2.9'
 ENV AWS_ACCESS_KEY_ID="ASDSADADADASDAS"
 ENV AWS_SECRET_ACCESS_KEY='ADSDASDASSDDASDSD'
-ENTRYPOINT ["ping", "-c 3"]
-CMD ["www.google.com"]
+EXPOSE 8888
+CMD ["nginx", "-g", "daemon off;"]
