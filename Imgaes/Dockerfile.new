@@ -1,4 +1,4 @@
-FROM: sreeharshav/utils:latest
+FROM sreeharshav/utils:latest
 LABEL owner="rahamadulla786.md@gmail.com"
 LABEL version="1.0.0"
 LABEL team="javateam@ibm.com"
