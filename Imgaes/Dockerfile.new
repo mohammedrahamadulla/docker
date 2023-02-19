@@ -1,0 +1,6 @@
+FROM: sreeharshav/utils:latest
+LABEL owner="rahamadulla786.md@gmail.com"
+LABEL version="1.0.0"
+LABEL team="javateam@ibm.com"
+ARG VERSION='1.2.9'
+CMD ["ping", "-c 5", "www.facebook.com;"]
